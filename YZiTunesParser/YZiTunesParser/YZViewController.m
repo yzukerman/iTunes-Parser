@@ -119,7 +119,7 @@
 
     do {
         TBXMLElement* titleElement = [TBXML childElementNamed:@"title" parentElement:rssItem];
-        NSLog(@"Title = %@", [TBXML textForElement:titleElement]);
+        NSLog(@"Title    = %@", [TBXML textForElement:titleElement]);
     } while ((rssItem = rssItem->nextSibling));
     
 }
