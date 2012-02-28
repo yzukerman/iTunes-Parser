@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F59E9D14FC7FAD006476CB /* ItunesRssFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F59E9C14FC7FAD006476CB /* ItunesRssFeed.m */; };
+		02F59EA114FC853D006476CB /* ItunesRssFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F59EA014FC853D006476CB /* ItunesRssFeedItem.m */; };
+		02FFFCC914F503B6005F2AF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFFCC814F503B6005F2AF1 /* UIKit.framework */; };
+		02FFFCCB14F503B6005F2AF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFFCCA14F503B6005F2AF1 /* Foundation.framework */; };
+		02FFFCCD14F503B6005F2AF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFFCCC14F503B6005F2AF1 /* CoreGraphics.framework */; };
+		02FFFCD314F503B6005F2AF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02FFFCD114F503B6005F2AF1 /* InfoPlist.strings */; };
+		02FFFCD514F503B6005F2AF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FFFCD414F503B6005F2AF1 /* main.m */; };
+		02FFFCD914F503B6005F2AF1 /* YZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FFFCD814F503B6005F2AF1 /* YZAppDelegate.m */; };
+		02FFFCDC14F503B6005F2AF1 /* YZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FFFCDB14F503B6005F2AF1 /* YZViewController.m */; };
+		02FFFCDF14F503B6005F2AF1 /* YZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FFFCDD14F503B6005F2AF1 /* YZViewController.xib */; };
+		02FFFCF414F50648005F2AF1 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FFFCEE14F50648005F2AF1 /* TBXML.m */; };
+		02FFFCF514F50648005F2AF1 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FFFCEF14F50648005F2AF1 /* TBXML+Compression.m */; };
+		02FFFCF614F50648005F2AF1 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FFFCF014F50648005F2AF1 /* TBXML+HTTP.m */; };
+		02FFFCFC14F5078B005F2AF1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FFFCFB14F5078B005F2AF1 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02F59E9B14FC7FAD006476CB /* ItunesRssFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItunesRssFeed.h; sourceTree = "<group>"; };
+		02F59E9C14FC7FAD006476CB /* ItunesRssFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItunesRssFeed.m; sourceTree = "<group>"; };
+		02F59E9F14FC853D006476CB /* ItunesRssFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItunesRssFeedItem.h; sourceTree = "<group>"; };
+		02F59EA014FC853D006476CB /* ItunesRssFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItunesRssFeedItem.m; sourceTree = "<group>"; };
+		02FFFCC414F503B5005F2AF1 /* YZiTunesParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZiTunesParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FFFCC814F503B6005F2AF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02FFFCCA14F503B6005F2AF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02FFFCCC14F503B6005F2AF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02FFFCD014F503B6005F2AF1 /* YZiTunesParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YZiTunesParser-Info.plist"; sourceTree = "<group>"; };
+		02FFFCD214F503B6005F2AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02FFFCD414F503B6005F2AF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02FFFCD614F503B6005F2AF1 /* YZiTunesParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZiTunesParser-Prefix.pch"; sourceTree = "<group>"; };
+		02FFFCD714F503B6005F2AF1 /* YZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZAppDelegate.h; sourceTree = "<group>"; };
+		02FFFCD814F503B6005F2AF1 /* YZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAppDelegate.m; sourceTree = "<group>"; };
+		02FFFCDA14F503B6005F2AF1 /* YZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZViewController.h; sourceTree = "<group>"; };
+		02FFFCDB14F503B6005F2AF1 /* YZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZViewController.m; sourceTree = "<group>"; };
+		02FFFCDE14F503B6005F2AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YZViewController.xib; sourceTree = "<group>"; };
+		02FFFCEE14F50648005F2AF1 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		02FFFCEF14F50648005F2AF1 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		02FFFCF014F50648005F2AF1 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		02FFFCF114F50648005F2AF1 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		02FFFCF214F50648005F2AF1 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		02FFFCF314F50648005F2AF1 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		02FFFCFB14F5078B005F2AF1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02FFFCC114F503B5005F2AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FFFCFC14F5078B005F2AF1 /* libz.dylib in Frameworks */,
+				02FFFCC914F503B6005F2AF1 /* UIKit.framework in Frameworks */,
+				02FFFCCB14F503B6005F2AF1 /* Foundation.framework in Frameworks */,
+				02FFFCCD14F503B6005F2AF1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FFFCB914F503B5005F2AF1 = {
+			isa = PBXGroup;
+			children = (
+				02FFFCFD14F507D8005F2AF1 /* Resources */,
+				02FFFCE514F503C6005F2AF1 /* OTS */,
+				02FFFCCE14F503B6005F2AF1 /* YZiTunesParser */,
+				02FFFCC714F503B6005F2AF1 /* Frameworks */,
+				02FFFCC514F503B5005F2AF1 /* Products */,
+				02FFFCCF14F503B6005F2AF1 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		02FFFCC514F503B5005F2AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02FFFCC414F503B5005F2AF1 /* YZiTunesParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02FFFCC714F503B6005F2AF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02FFFCFB14F5078B005F2AF1 /* libz.dylib */,
+				02FFFCC814F503B6005F2AF1 /* UIKit.framework */,
+				02FFFCCA14F503B6005F2AF1 /* Foundation.framework */,
+				02FFFCCC14F503B6005F2AF1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02FFFCCE14F503B6005F2AF1 /* YZiTunesParser */ = {
+			isa = PBXGroup;
+			children = (
+				02FFFCD714F503B6005F2AF1 /* YZAppDelegate.h */,
+				02FFFCD814F503B6005F2AF1 /* YZAppDelegate.m */,
+				02FFFCDA14F503B6005F2AF1 /* YZViewController.h */,
+				02FFFCDB14F503B6005F2AF1 /* YZViewController.m */,
+				02F59E9B14FC7FAD006476CB /* ItunesRssFeed.h */,
+				02F59E9C14FC7FAD006476CB /* ItunesRssFeed.m */,
+				02F59E9F14FC853D006476CB /* ItunesRssFeedItem.h */,
+				02F59EA014FC853D006476CB /* ItunesRssFeedItem.m */,
+			);
+			path = YZiTunesParser;
+			sourceTree = "<group>";
+		};
+		02FFFCCF14F503B6005F2AF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02FFFCD014F503B6005F2AF1 /* YZiTunesParser-Info.plist */,
+				02FFFCD114F503B6005F2AF1 /* InfoPlist.strings */,
+				02FFFCD414F503B6005F2AF1 /* main.m */,
+				02FFFCD614F503B6005F2AF1 /* YZiTunesParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = YZiTunesParser;
+			sourceTree = "<group>";
+		};
+		02FFFCE514F503C6005F2AF1 /* OTS */ = {
+			isa = PBXGroup;
+			children = (
+				02FFFCED14F5061B005F2AF1 /* TBXML */,
+			);
+			name = OTS;
+			sourceTree = "<group>";
+		};
+		02FFFCED14F5061B005F2AF1 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				02FFFCEE14F50648005F2AF1 /* TBXML.m */,
+				02FFFCEF14F50648005F2AF1 /* TBXML+Compression.m */,
+				02FFFCF014F50648005F2AF1 /* TBXML+HTTP.m */,
+				02FFFCF114F50648005F2AF1 /* TBXML.h */,
+				02FFFCF214F50648005F2AF1 /* TBXML+Compression.h */,
+				02FFFCF314F50648005F2AF1 /* TBXML+HTTP.h */,
+			);
+			name = TBXML;
+			sourceTree = "<group>";
+		};
+		02FFFCFD14F507D8005F2AF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02FFFCDD14F503B6005F2AF1 /* YZViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02FFFCC314F503B5005F2AF1 /* YZiTunesParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FFFCE214F503B6005F2AF1 /* Build configuration list for PBXNativeTarget "YZiTunesParser" */;
+			buildPhases = (
+				02FFFCC014F503B5005F2AF1 /* Sources */,
+				02FFFCC114F503B5005F2AF1 /* Frameworks */,
+				02FFFCC214F503B5005F2AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZiTunesParser;
+			productName = YZiTunesParser;
+			productReference = 02FFFCC414F503B5005F2AF1 /* YZiTunesParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02FFFCBB14F503B5005F2AF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Molecular, Inc.";
+			};
+			buildConfigurationList = 02FFFCBE14F503B5005F2AF1 /* Build configuration list for PBXProject "YZiTunesParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02FFFCB914F503B5005F2AF1;
+			productRefGroup = 02FFFCC514F503B5005F2AF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02FFFCC314F503B5005F2AF1 /* YZiTunesParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02FFFCC214F503B5005F2AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FFFCD314F503B6005F2AF1 /* InfoPlist.strings in Resources */,
+				02FFFCDF14F503B6005F2AF1 /* YZViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02FFFCC014F503B5005F2AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FFFCD514F503B6005F2AF1 /* main.m in Sources */,
+				02FFFCD914F503B6005F2AF1 /* YZAppDelegate.m in Sources */,
+				02FFFCDC14F503B6005F2AF1 /* YZViewController.m in Sources */,
+				02FFFCF414F50648005F2AF1 /* TBXML.m in Sources */,
+				02FFFCF514F50648005F2AF1 /* TBXML+Compression.m in Sources */,
+				02FFFCF614F50648005F2AF1 /* TBXML+HTTP.m in Sources */,
+				02F59E9D14FC7FAD006476CB /* ItunesRssFeed.m in Sources */,
+				02F59EA114FC853D006476CB /* ItunesRssFeedItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02FFFCD114F503B6005F2AF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02FFFCD214F503B6005F2AF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02FFFCDD14F503B6005F2AF1 /* YZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02FFFCDE14F503B6005F2AF1 /* en */,
+			);
+			name = YZViewController.xib;
+			path = YZiTunesParser;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02FFFCE014F503B6005F2AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02FFFCE114F503B6005F2AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02FFFCE314F503B6005F2AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZiTunesParser/YZiTunesParser-Prefix.pch";
+				INFOPLIST_FILE = "YZiTunesParser/YZiTunesParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02FFFCE414F503B6005F2AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZiTunesParser/YZiTunesParser-Prefix.pch";
+				INFOPLIST_FILE = "YZiTunesParser/YZiTunesParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02FFFCBE14F503B5005F2AF1 /* Build configuration list for PBXProject "YZiTunesParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FFFCE014F503B6005F2AF1 /* Debug */,
+				02FFFCE114F503B6005F2AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FFFCE214F503B6005F2AF1 /* Build configuration list for PBXNativeTarget "YZiTunesParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FFFCE314F503B6005F2AF1 /* Debug */,
+				02FFFCE414F503B6005F2AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02FFFCBB14F503B5005F2AF1 /* Project object */;
+}
